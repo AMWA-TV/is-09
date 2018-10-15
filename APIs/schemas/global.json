@@ -34,7 +34,7 @@
           "type": "object",
           "required": [
             "log_announce_interval",
-            "announce_receipt_interval",
+            "announce_receipt_timeout",
             "domain_number"
           ],
           "properties": {
