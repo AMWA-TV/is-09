@@ -14,7 +14,7 @@ documentation:
       The System API allows Nodes to obtain information that is common across a system
   - title: DNS-SD Advertisement
     content: |
-      System APIs MUST produce an mDNS advertisement of the type \_nmos-system.\_tcp. This MAY be accompanied by a unicast DNS announcement of the same type.
+      System APIs MAY produce an mDNS advertisement of the type \_nmos-system.\_tcp. A unicast DNS announcement of the same type MAY be used in addition to or instead of using mDNS.
 
       The IP address and port of the System API MUST be identified via the DNS-SD advertisement, with the full HTTP path then being resolved via the standard NMOS API path documentation.
 
