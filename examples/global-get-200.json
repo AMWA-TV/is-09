@@ -1,0 +1,19 @@
+{
+    "id": "3b8be755-08ff-452b-b217-c9151eb21193",
+    "version": "1441700172:318426300",
+    "label": "ZBQ System",
+    "description": "System Global Information for ZBQ",
+    "caps": {},
+    "tags": {},
+    "is04": {
+        "heartbeat_interval": 8
+    },
+    "ptp": {
+        "log_announce_interval": -2,
+        "announce_receipt_timeout": 2,
+        "domain_number": 57
+    },
+    "syslogv2": {
+        "hostname": "biglogger.ebu.ch"
+    }
+}

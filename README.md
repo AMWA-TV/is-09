@@ -1,13 +1,12 @@
-# [Work In Progress] AMWA NMOS System Resource API
+# [Work In Progress] AMWA NMOS System API
 
-This repository contains details of this AMWA Specification for getting the System Resource
+This repository contains details of this AMWA Specification for the System API, with supporting documentation and examples
 
 ## Getting started
 
 Readers are advised to be familiar with:
 * The JT-NM Reference Architecture (http://jt-nm.org/)
 * The [overview of Networked Media Open Specifications](https://github.com/AMWA-TV/nmos)
-* The [NMOS Discovery and Registration Specification](https://github.com/AMWA-TV/nmos-discovery-registration) (IS-04)
 
 Readers should then read the [documentation](docs/) in this repository, and the [APIs](APIs/), which are written in RAML -- if a suitable tool is not available for reading this, then [this](APIs/generateHTML) will create HTML versions.
 
