@@ -9,11 +9,11 @@
         "heartbeat_interval": 8
     },
     "ptp": {
-        "log_announce_interval": -2,
         "announce_receipt_timeout": 2,
         "domain_number": 57
     },
     "syslogv2": {
-        "hostname": "biglogger.ebu.ch"
+        "hostname": "biglogger.ebu.ch",
+        "port": 3477
     }
 }

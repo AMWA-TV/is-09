@@ -33,17 +33,10 @@
           "description": "Constants relating to IEEE1588 PTP",
           "type": "object",
           "required": [
-            "log_announce_interval",
             "announce_receipt_timeout",
             "domain_number"
           ],
           "properties": {
-            "log_announce_interval": {
-              "description": "Log base 2 of the interval between ptp announce messages (in seconds)",
-              "type": "integer",
-              "minimum": -3,
-              "maximum": 1
-            },
             "announce_receipt_timeout": {
               "description": "Number of announce intervals that must pass before declaring timeout",
               "type": "integer",
@@ -59,16 +52,38 @@
           }
         },
         "syslogv2": {
-          "description": "Constants relating to syslog servers",
+          "description": "Constants relating to syslog v2 servers",
           "type": "object",
-          "required": [
-            "hostname"
-          ],
+          "additionalProperties": true,
           "properties": {
             "hostname": {
               "description": "Hostname or IP of a syslog v2 server (optional)",
               "type": "string",
               "format": "hostname"
+            },
+            "port": {
+              "description": "destination port number for syslog v2 messages",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 65535,
+            }
+          }
+        },
+        "syslog": {
+          "description": "Constants relating to syslog v1 servers",
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "hostname": {
+              "description": "Hostname or IP of a syslog v1 server (optional)",
+              "type": "string",
+              "format": "hostname"
+            },
+            "port": {
+              "description": "destination port number for syslog v1 messages",
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 65535,
             }
           }
         }
