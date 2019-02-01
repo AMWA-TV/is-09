@@ -65,7 +65,7 @@
               "description": "destination port number for syslog v2 messages",
               "type": "integer",
               "minimum": 1,
-              "maximum": 65535,
+              "maximum": 65535
             }
           }
         },
@@ -83,7 +83,7 @@
               "description": "destination port number for syslog v1 messages",
               "type": "integer",
               "minimum": 1,
-              "maximum": 65535,
+              "maximum": 65535
             }
           }
         }

@@ -3,7 +3,6 @@
     "version": "1441700172:318426300",
     "label": "ZBQ System",
     "description": "System Global Information for ZBQ",
-    "caps": {},
     "tags": {},
     "is04": {
         "heartbeat_interval": 8
