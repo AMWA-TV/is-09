@@ -1,7 +1,7 @@
 # [Work In Progress] AMWA IS-09 NMOS System API
 
-AMWA IS-09 NMOS System API allows an NMOS Node to find information that allows it to start, or re-start, 
-in a well defined way that is consistent with the environment it's running it.
+The NMOS System API allows an NMOS Node (also known as a "Media Node") to find Resources that are common across a system.
+This enables the Node to start, or re-start, in a well defined way that is consistent with the environment it's running in.
 
 ## Getting started
 
