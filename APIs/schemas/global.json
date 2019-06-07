@@ -8,11 +8,18 @@
     {
       "type": "object",
       "required": [
+        "ttl",
         "is04",
         "ptp"
       ],
       "additionalProperties": true,
       "properties": {
+        "ttl": {
+          "description": "Frequency with which this resource may be re-checked",
+          "type": "integer",
+          "default": 86400,
+          "minimum": 1
+        },
         "is04": {
           "description": "Constants relating to AMWA NMOS IS-04",
           "type": "object",

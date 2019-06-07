@@ -4,15 +4,12 @@
     "label": "ZBQ System",
     "description": "System Global Information for ZBQ",
     "tags": {},
+    "ttl": 86400,
     "is04": {
         "heartbeat_interval": 8
     },
     "ptp": {
         "announce_receipt_timeout": 2,
         "domain_number": 57
-    },
-    "syslogv2": {
-        "hostname": "biglogger.ebu.ch",
-        "port": 3477
     }
 }

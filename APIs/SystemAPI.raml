@@ -52,3 +52,12 @@ documentation:
         body:
           example: !include ../examples/global-get-200.json
           type: !include schemas/global.json
+/extensions:
+  displayName: Additional configuration resource
+  get:
+    description: Additional dynamic configuration parameters
+    responses:
+      200:
+        body:
+          example: !include ../examples/extensions-get-200.json
+          type: !include schemas/extensions.json

@@ -1,0 +1,18 @@
+{
+    "ttl": 3600,
+    "extensions": [
+        {
+            "type": "urn:x-nmos:system:global-example/v1.0",
+            "href": "http://eg.example.com:8888",
+            "params": {
+                "foo": "bar",
+                "baz": 42,
+                "qux": true
+            }
+        },
+        {
+            "type": "urn:x-nmos:system:syslog/v2.0",
+            "href": "syslogs://syslog.example.com:3477"
+        }
+    ]
+}
