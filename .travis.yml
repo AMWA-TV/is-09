@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 8
+install:
+  - npm install remark-cli remark-preset-lint-recommended yaml-lint jsonlint
+script:
+  - .ci-scripts/lint.sh
+branches:
+  except:
+    - gh-pages
