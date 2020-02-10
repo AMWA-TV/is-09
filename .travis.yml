@@ -2,9 +2,10 @@ language: node_js
 node_js:
   - 8
 install:
-  - npm install remark-cli remark-preset-lint-recommended yaml-lint jsonlint
+  - "make distclean"
+  - "make build-tools"
 script:
-  - .ci-scripts/lint.sh
+  - "make lint"
 branches:
   except:
     - gh-pages
