@@ -11,6 +11,8 @@ Readers are advised to be familiar with:
 
 Readers should then read the [documentation](docs/) in this repository, and the [APIs](APIs/), which are written in RAML -- if a suitable tool is not available for reading this, then [this](APIs/generateHTML) will create HTML versions.
 
+> HTML rendered versions of all NMOS Specifications are available on the [NMOS GitHub pages](https://amwa-tv.github.io/nmos)
+
 ## Contents
 
 * README.md -- This file
