@@ -13,7 +13,7 @@
       ],
       "properties": {
         "is04": {
-          "description": "Constants relating to AMWA NMOS IS-04",
+          "description": "Constants relating to AMWA IS-04 NMOS Discovery and Registration",
           "type": "object",
           "required": [
             "heartbeat_interval"
@@ -55,9 +55,13 @@
           "type": "object",
           "properties": {
             "hostname": {
-              "description": "Hostname or IP address of a syslog v2 server (optional)",
+              "description": "Hostname or IP address of a syslog v2 server",
               "type": "string",
-              "format": "hostname"
+              "anyOf": [
+                {"format": "hostname"},
+                {"format": "ipv4"},
+                {"format": "ipv6"}
+              ]
             },
             "port": {
               "description": "Destination port number for syslog v2 messages",
@@ -72,9 +76,13 @@
           "type": "object",
           "properties": {
             "hostname": {
-              "description": "Hostname or IP address of a syslog v1 server (optional)",
+              "description": "Hostname or IP address of a syslog v1 server",
               "type": "string",
-              "format": "hostname"
+              "anyOf": [
+                {"format": "hostname"},
+                {"format": "ipv4"},
+                {"format": "ipv6"}
+              ]
             },
             "port": {
               "description": "Destination port number for syslog v1 messages",
