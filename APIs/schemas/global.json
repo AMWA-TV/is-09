@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "description": "Defines the Global System Constants",
-  "title": "System resource - globals",
+  "description": "Defines the global configuration parameters",
+  "title": "Global configuration resource",
   "allOf": [
     { "$ref": "resource_core.json" },
     {
