@@ -51,7 +51,7 @@
           }
         },
         "syslogv2": {
-          "description": "Constants relating to syslog v2 servers",
+          "description": "Constants relating to syslog v2 servers using TLS transport (IETF RFC 5424, RFC 5425)",
           "type": "object",
           "properties": {
             "hostname": {
@@ -64,7 +64,7 @@
               ]
             },
             "port": {
-              "description": "Destination port number for syslog v2 messages",
+              "description": "Destination port number for syslog v2 messages (default 6514)",
               "type": "integer",
               "minimum": 1,
               "maximum": 65535
@@ -72,7 +72,7 @@
           }
         },
         "syslog": {
-          "description": "Constants relating to syslog v1 servers",
+          "description": "Constants relating to syslog v1 servers using UDP transport (IETF RFC 5424, RFC 5426)",
           "type": "object",
           "properties": {
             "hostname": {
@@ -85,7 +85,7 @@
               ]
             },
             "port": {
-              "description": "Destination port number for syslog v1 messages",
+              "description": "Destination port number for syslog v1 messages (default 514)",
               "type": "integer",
               "minimum": 1,
               "maximum": 65535
