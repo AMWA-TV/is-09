@@ -1,5 +1,8 @@
 # AMWA IS-09 NMOS System Parameters Specification
 
+[![Lint Status](https://github.com/AMWA-TV/nmos-system/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-system/actions?query=workflow%3ALint)
+[![Render Status](https://github.com/AMWA-TV/nmos-system/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-system/actions?query=workflow%3ARender)
+
 The NMOS System API allows an NMOS Node (also known as a "Media Node") to obtain global configuration parameters that are common across the system.
 This enables the Node to start, or re-start, in a well defined way that is consistent with the environment it's running in.
 
