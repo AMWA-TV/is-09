@@ -12,3 +12,9 @@ yarn.lock
 .ssh/
 Gemfile.lock
 raml2html-nmos-theme/
+_site/
+assets/
+branches/
+index.md
+source-repo/
+tags/
