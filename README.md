@@ -9,7 +9,7 @@ This enables the Node to start, or re-start, in a well defined way that is consi
 ## Getting started
 
 Readers are advised to be familiar with:
-* The [JT-NM Reference Architecture](http://jt-nm.org/RA-1.0/)
+* The [JT-NM Reference Architecture](http://jt-nm.org/reference-architecture/)
 * The [overview of Networked Media Open Specifications](https://specs.amwa.tv/nmos)
 
 Readers should then read the [documentation](docs/), [APIs](APIs/) (RAML and JSON Schema), and [examples](examples/) (JSON) 
