@@ -3,7 +3,7 @@
 [![Lint Status](https://github.com/AMWA-TV/nmos-system/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-system/actions?query=workflow%3ALint)
 [![Render Status](https://github.com/AMWA-TV/nmos-system/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-system/actions?query=workflow%3ARender)
 
-[//]: # "INTRO-START"
+<!-- INTRO-START -->
 
 ### What does it do?
 
@@ -17,7 +17,7 @@
 
 - Defines the System API 'global configuration resource' and the expected behaviour for Nodes using it.
 
-[//]: # "INTRO-END"
+<!-- INTRO-END -->
 
 ## Getting started
 
