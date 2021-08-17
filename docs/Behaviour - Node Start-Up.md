@@ -6,7 +6,7 @@ This document covers expected behaviour for interactions between a Node (the cli
 
 ## Normal Operation
 
-1. The Node performs a DNS-SD browse for services of type '\_nmos-system.\_tcp' as specified by the client interaction procedure in [Discovery: Operation](3.1.%20Discovery%20-%20Operation.md).
+1. The Node performs a DNS-SD browse for services of type '\_nmos-system.\_tcp' as specified by the client interaction procedure in [Discovery: Operation](Discovery%20-%20Operation.md).
 2. The Node fetches the global configuration resource (`/global`).
 3. The Node should use the unique System ID and the version timestamp (`id` and `version`) to determine whether the system environment has changed since its last start-up, for example, by comparing against information held in non-volatile storage.
 4. After successfully fetching the global configuration resource, the Node is not required by this specification to repeat this procedure, until its next restart.
@@ -19,7 +19,7 @@ External documents may specify additional requirements on Node behaviour when no
 
 ## Error Conditions
 
-In addition to the general guidance on Error Codes & Responses in the [APIs](2.0.%20APIs.md) documentation, the following error conditions describe scenarios that may be encountered by Nodes when interacting with a System API. It is expected that all Node implementations handle these in a sensible fashion as described below.
+In addition to the general guidance on Error Codes & Responses in the [APIs](APIs.md) documentation, the following error conditions describe scenarios that may be encountered by Nodes when interacting with a System API. It is expected that all Node implementations handle these in a sensible fashion as described below.
 
 ### Node Encounters HTTP 500 (or other 5xx), Inability To Connect, Or A Timeout
 

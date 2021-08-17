@@ -32,7 +32,7 @@ Values 0 to 99 correspond to an active NMOS System API (zero being the highest p
 ### Client Interaction Procedure
 
 1. Node comes online
-2. Node scans for an active System API on the network using unicast and/or multicast DNS service discovery (type '\_nmos-system.\_tcp') as described in the [Discovery](3.0.%20Discovery.md#unicast-vs-multicast-dns-sd) document.
+2. Node scans for an active System API on the network using unicast and/or multicast DNS service discovery (type '\_nmos-system.\_tcp') as described in the [Discovery](Discovery.md#unicast-vs-multicast-dns-sd) document.
 3. Given multiple returned System APIs, the Node orders these based on their advertised priority (TXT pri), filtering out any APIs which do not support its required API version and protocol (TXT api_ver and api_proto).
 4. The Node selects a System API to use based on the priority, and a random selection if multiple System APIs of the same API version with the same priority are identified.
 5. Node proceeds to fetch the global configuration resource.

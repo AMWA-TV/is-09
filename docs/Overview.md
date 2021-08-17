@@ -23,4 +23,4 @@ The System ID is exposed via the `id` attribute of the `/global` resource. This 
 ## API Interaction
 
 The System API is provided in order that Nodes can obtain configuration parameters at start-up.
-The [Discovery](3.0.%20Discovery.md) and [Behaviour](4.0.%20Behaviour.md) documentation describes the procedure that Nodes should use.
+The [Discovery](Discovery.md) and [Behaviour](Behaviour.md) documentation describes the procedure that Nodes should use.
