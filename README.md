@@ -1,7 +1,7 @@
 # AMWA IS-09 NMOS System Parameters Specification
 
-[![Lint Status](https://github.com/AMWA-TV/nmos-system/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/nmos-system/actions?query=workflow%3ALint)
-[![Render Status](https://github.com/AMWA-TV/nmos-system/workflows/Render/badge.svg)](https://github.com/AMWA-TV/nmos-system/actions?query=workflow%3ARender)
+[![Lint Status](https://github.com/AMWA-TV/is-09/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/is-09/actions?query=workflow%3ALint)
+[![Render Status](https://github.com/AMWA-TV/is-09/workflows/Render/badge.svg)](https://github.com/AMWA-TV/is-09/actions?query=workflow%3ARender)
 
 <!-- INTRO-START -->
 
