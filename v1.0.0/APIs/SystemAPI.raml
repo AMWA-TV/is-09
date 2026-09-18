@@ -1,0 +1,36 @@
+#%RAML 1.0
+
+# AMWA NMOS System Parameters Specification: System API
+# (c) AMWA 2018
+
+title: System
+baseUri: http://api.example.com/x-nmos/system/{version}
+version: v1.0
+mediaType: application/json
+
+documentation:
+  - title: Overview
+    content: |
+      The System API allows Nodes to obtain global configuration parameters that are common across the system
+  - title: Further Documentation
+    content: |
+      Further normative documentation covering the behaviour of this API is contained in the [docs](../docs) folder of this repository.
+
+/:
+  displayName: Base
+  get:
+    description: List of resources available.
+    responses:
+      200:
+        body:
+          example: !include ../examples/base-get-200.json
+          type: !include schemas/base.json
+/global:
+  displayName: Global configuration resource
+  get:
+    description: Global configuration parameters
+    responses:
+      200:
+        body:
+          example: !include ../examples/global-get-200.json
+          type: !include schemas/global.json
