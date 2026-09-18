@@ -1,0 +1,25 @@
+{
+  "amwa_id": "IS-09",
+  "url": "https://specs.amwa.tv/is-09",
+  "name": "System Parameters",
+  "status": "AMWA Specification",
+  "repo_name": "is-09",
+  "alt_repo_name": "nmos-system",
+  "repo_url": "https://github.com/AMWA-TV/is-09",
+  "releases": [
+    "v1.0.0"
+  ],
+  "default_branch": "v1.0.x",
+  "show_in_index": true,
+  "intro": {
+    "what_does_it_do": [
+      "Allows an NMOS Node (also known as a \"Media Node\") to obtain global configuration parameters that are common across the system."
+    ],
+    "why_does_it_matter": [
+      "Enables the Node to start, or re-start, in a well defined way that is consistent with the environment it's running in."
+    ],
+    "how_does_it_work": [
+      "Defines the System API 'global configuration resource' and the expected behaviour for Nodes using it."
+    ]
+  }
+}
