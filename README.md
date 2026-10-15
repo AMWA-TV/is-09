@@ -2,7 +2,7 @@
 
 [![Lint Status](https://github.com/AMWA-TV/is-09/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/is-09/actions?query=workflow%3ALint)
 [![Zensical Render Status](https://github.com/AMWA-TV/is-09/actions/workflows/docs.yml/badge.svg)](https://github.com/AMWA-TV/is-09/actions/workflows/docs.yml)
-[![Legacy Render Status](https://github.com/AMWA-TV/is-09/workflows/Render/badge.svg)](https://github.com/AMWA-TV/is-09/actions?query=workflow%3ARender)
+
 
 <!-- INTRO-START -->
 
