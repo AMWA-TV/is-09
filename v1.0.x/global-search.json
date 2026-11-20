@@ -3,12 +3,6 @@
   "repository": "AMWA-TV/is-09",
   "documents": [
     {
-      "title": "Page not found",
-      "url": "https://specs.amwa.tv/is-09/latest/404/",
-      "text": "Page not found Page not found Page not found - AMWA IS-09 NMOS System Parameters Specification Skip to content Page not found The page you requested could not be found. Return to the documentation home",
-      "repository": "AMWA-TV/is-09"
-    },
-    {
       "title": "SystemAPI",
       "url": "https://specs.amwa.tv/is-09/latest/APIs/SystemAPI/",
       "text": "SystemAPI SystemAPI SystemAPI - AMWA IS-09 NMOS System Parameters Specification Skip to content SystemAPI The System API allows Nodes to obtain global configuration parameters that are common across the system Open SystemAPI API documentation",
